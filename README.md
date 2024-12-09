@@ -10,7 +10,7 @@ Les activités suivantes vous sont proposées en parallèle du Day Of Chaos. Ell
 - Automatiser des tâches administratives nécessitant des connexions SSH. 
 - Réduire les risques liés au partage ou à l'utilisation de mots de passe. 
 
-Intérêt pour le jeu : 🟢🟢🟢🟢⚪ - Facilité de mise en oeuvre : 🟢🟢🟢🟢🟢
+Intérêt pour le jeu : 🟢🟢🟢⚪⚪ - Facilité de mise en oeuvre : 🟢🟢🟢🟢🟢
 
 ### A2. Principe de fonctionnement
 L'authentification avec clé SSH repose sur la cryptographie asymétrique pour sécuriser l'accès sans utiliser de mot de passe. Voici le fonctionnement détaillé :
