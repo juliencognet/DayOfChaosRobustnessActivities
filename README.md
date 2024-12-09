@@ -1,3 +1,4 @@
+
 # Day Of Chaos - Activités accélératrices
 Les activités suivantes vous sont proposées en parallèle du Day Of Chaos. Elles vous permettront d'augmenter vos chances de succès au sein du Day Of Chaos, mais aussi de découvrir les actions qui peuvent être réalisées par des administrateurs système afin de rendre un système plus résilient et facile à maintenir. Nous vous conseillons de les réaliser lorsque vous avez fini de réparer une panne en attendant les autres équipes.
 
@@ -236,6 +237,7 @@ ruler:
   alertmanager_url: http://localhost:9093
   reporting_enabled: false
 ```
+Plus d'information sur la configuration de promtail: [https://grafana.com/docs/loki/latest/send-data/promtail/configuration/](https://grafana.com/docs/loki/latest/send-data/promtail/configuration/)
 
 2. **Démarrer les conteneurs**
 
@@ -331,7 +333,6 @@ Pour vérifier que Promtail fonctionne correctement, vous pouvez consulter les l
 
 ```bash
 docker logs -f promtail
-
 ```
 
 Assurez-vous que Promtail envoie les logs au serveur Loki sans erreur.
