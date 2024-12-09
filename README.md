@@ -330,7 +330,7 @@ docker run -d \
 -   **`-v /var/log:/var/log`** : Montez les logs du système pour que Promtail puisse les lire.
 -   **`-v /tmp:/tmp`** : Montez `/tmp` pour stocker les fichiers de positions.
 
-----------
+
 
 3. **Vérification et suivi**
 
@@ -343,30 +343,19 @@ docker logs -f promtail
 
 Assurez-vous que Promtail envoie les logs au serveur Loki sans erreur.
 
-----------
 
-**4. Accéder à Grafana**
+
+4. **Accéder à Grafana**
 
 Accédez à Grafana (exemple : `http://<adresse_de_votre_serveur>:3000`), et configurez **Loki** comme source de données :
 
-1.  Allez dans **Configuration > Data Sources**.
-2.  Sélectionnez **Loki** comme type de source de données.
-3.  Mettez l'URL de votre serveur Loki (exemple : `http://<adresse_du_serveur_loki>:3100`).
+ -  Allez dans **Configuration > Data Sources**.
+ -  Sélectionnez **Loki** comme type de source de données.
+ -  Mettez l'URL de votre serveur Loki (exemple : `http://<adresse_du_serveur_loki>:3100`).
 
-----------
 
-**5. Visualisation des logs dans Grafana**
+5.  **Visualisation des logs dans Grafana**
 
 -   Dans Grafana, allez dans **Explore**.
 -   Sélectionnez votre source de données Loki et explorez les logs envoyés depuis Promtail.
 
-----------
-
-
-### **Résumé :**
-
-1.  **Fichier de configuration** : Créez un fichier `promtail-config.yaml`.
-2.  **Docker** : Lancez Promtail en utilisant un conteneur Docker.
-3.  **Grafana** : Connectez Grafana à Loki pour visualiser les logs centralisés.
-
-Cette solution avec Docker est simple et rapide, et vous permet de centraliser les logs sur Loki sans nécessiter d'installation complexe sur la machine.
