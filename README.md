@@ -155,7 +155,7 @@ Avec ces étapes, votre script shell est désormais géré comme un service syst
 -   Détecter et résoudre rapidement des anomalies grâce à une vision consolidée.
 -   Respecter les bonnes pratiques de gestion et de conformité en matière de logs.
 
-Intérêt pour le jeu : 🟢🟢🟢🟢🟢 - Facilité de mise en oeuvre : 🟢⚪⚪⚪⚪
+Intérêt pour le jeu : 🟢🟢🟢🟢🟢 - Facilité de mise en oeuvre : 🟢🟢⚪⚪⚪
 
 ### C2. Comment le faire ?
 Une solution simple et moderne pour centraliser les logs d'un système consiste à utiliser un système d'agrégation et d'interrogation de logs tel que **Grafana Loki** combiné à un agent de collecte et d'envoi de logs tel que **Promtail**. 
