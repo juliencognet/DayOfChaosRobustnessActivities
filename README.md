@@ -1,5 +1,5 @@
 
-# Day Of Chaos - Activités accélératrices
+# Day Of Chaos - Activités accélératrices de résilience
 Les activités suivantes vous sont proposées en parallèle du Day Of Chaos. Elles vous permettront d'augmenter vos chances de succès au sein du Day Of Chaos, mais aussi de découvrir les actions qui peuvent être réalisées par des administrateurs système afin de rendre un système plus résilient et facile à maintenir. Nous vous conseillons de les réaliser lorsque vous avez fini de réparer une panne en attendant les autres équipes.
 
 ## A. Ajouter des paires de clés ssh 
