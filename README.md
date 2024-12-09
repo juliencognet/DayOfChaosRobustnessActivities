@@ -12,7 +12,7 @@ Les activités suivantes vous sont proposées en parallèle du Day Of Chaos. Ell
 
 Intérêt pour le jeu : 🟢🟢🟢🟢⚪ - Facilité de mise en oeuvre : 🟢🟢🟢🟢🟢
 
-### A2. Le principe
+### A2. Principe de fonctionnement
 L'authentification avec clé SSH repose sur la cryptographie asymétrique pour sécuriser l'accès sans utiliser de mot de passe. Voici le fonctionnement détaillé :
 
 1. **Génération de la paire de clés :**
@@ -40,7 +40,7 @@ L'authentification avec clé SSH repose sur la cryptographie asymétrique pour s
 
 Cette méthode élimine le besoin d'un mot de passe et renforce la sécurité en protégeant contre les attaques par interception.
 
-### Comment le faire ?
+### A3. Comment le faire ?
 1. Générer une paire de clés SSH :
 
 ` ssh-keygen -t rsa -b 4096 -C "votre_email@example.com" `
