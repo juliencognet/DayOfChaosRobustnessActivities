@@ -47,7 +47,7 @@ Cette méthode élimine le besoin d'un mot de passe et renforce la sécurité en
 
 2. Copier la clé publique vers une autre machine: 
 
-` ssh-copy-id utilisateur@adresse_ip`
+` ssh-copy-id -P port_ssh utilisateur@adresse_ip`
 
 
 
