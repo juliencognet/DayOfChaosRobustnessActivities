@@ -161,6 +161,8 @@ Intérêt pour le jeu : 🟢🟢🟢🟢🟢 - Facilité de mise en oeuvre : �
 Une solution simple et moderne pour centraliser les logs d'un système consiste à utiliser un système d'agrégation et d'interrogation de logs tel que **Grafana Loki** combiné à un agent de collecte et d'envoi de logs tel que **Promtail**. 
 
 #### C2.1. Installation de Grafana Loki
+Commencer par installer Docker en suivant le tutoriel https://gopesh3652.medium.com/installing-docker-in-rhel-9-locally-by-configuring-yum-42bdfea103f0
+
 Voici un fichier `docker-compose.yml` pour installer **Grafana** et **Loki** avec **Docker Compose** :
 
 ```yaml
@@ -186,10 +188,6 @@ services:
       - GF_SECURITY_ADMIN_PASSWORD=admin
     depends_on:
       - loki
-
-volumes:
-  loki_data:
-
 ```
 
 
